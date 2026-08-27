@@ -1,0 +1,9 @@
+html, body{
+    background-color: #FFF8EE !important;
+    font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+main{
+    padding-top: 76px;
+}

@@ -1,0 +1,60 @@
+h1 {
+    background-color: #ffa722;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1%;
+    margin-left: 3%;
+
+}
+
+.botonBuscar {
+    background-color: #c46a4f;
+    margin-right: 5%;
+    color: white;
+}
+
+.botonBuscar:hover {
+    background-color: #c25533;
+    color: #ffe3bb;
+}
+
+.botonBuscar:active {
+    background-color: #cf5a37;
+    color: #fac7b3;
+}
+
+.barraBusqueda {
+    margin-left: 15%;
+}
+
+.seccionTitulo {
+    background-color: #ffa722 !important;
+    margin-bottom: 3%;
+}
+
+.botonCategoria{
+    background-color: #c46a4f;
+    border-radius: 5%;
+}
+
+
+@media (max-width: 900px) {
+    .seccionTitulo .row {
+        flex-direction: column;
+    }
+
+    .divTitulo,
+    .divBusqueda {
+        width: 100%;
+    }
+
+    .divBusqueda {
+        margin-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .barraBusqueda {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
